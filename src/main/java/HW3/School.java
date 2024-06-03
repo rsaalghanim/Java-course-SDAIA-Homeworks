@@ -66,7 +66,7 @@ public class School {//
     }
 
     public void writeIntoFile (String filename){
-       filename = "C:\\Users\\dev\\IdeaProjects\\JavaCourse\\src\\main\\java\\Day3\\HW3\\student.txt";
+       filename = "student.txt";
     try(PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
         for (Student student : students){
             writer.println(student.getDetail());
@@ -78,7 +78,7 @@ public class School {//
     }
 
     public void readFromFile (String filename) throws FileNotFoundException {
-        filename = "C:\\Users\\dev\\IdeaProjects\\JavaCourse\\src\\main\\java\\Day3\\HW3\\student.txt";
+        filename = "student.txt";
         var fsc = new Scanner(filename);
         while (fsc.hasNext()) {
             System.out.println(fsc.nextLine());

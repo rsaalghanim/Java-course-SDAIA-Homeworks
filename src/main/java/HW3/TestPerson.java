@@ -50,6 +50,7 @@ public class TestPerson {
         school.addStudent(s4);
 
 
+
         System.out.println("-----------------------------");
         System.out.println("Writing in Student File");
         school.writeIntoFile("student.txt");
