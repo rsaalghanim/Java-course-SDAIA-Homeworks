@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-public class School {
+public class School {//
 
     private List <Student> students;
 
